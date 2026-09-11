@@ -74,14 +74,11 @@ Development notes
 - The project keeps synchronous convenience wrappers in `backend.py` while running an async FastAPI server — `nest_asyncio` is applied in `app.py` to allow the sync helpers to call async MCP helpers.
 - Tests are not included; to experiment, interact with the web UI or call the API endpoints directly.
 
-Contributing
-- Contributions are welcome. Please open issues or pull requests for bug fixes, documentation improvements, or new adapter examples.
+
 
 License
 - This repository follows the license in the `LICENSE` file.
 
-Acknowledgements
-- Built as a demonstration of LangGraph + MCP patterns with supervisor and guardrail concepts.
+🔗 Demo
 
-Contact
-- For questions or suggestions, open an issue or contact the repository owner.
+**Live App:** [multi-agent-system-using-langgraph.onrender.com](https://multi-agent-system-using-langgraph.onrender.com/)
